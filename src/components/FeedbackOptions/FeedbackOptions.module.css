@@ -1,0 +1,24 @@
+.options__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.option__item:not(:last-child) {
+  margin-right: 20px;
+}
+.option__button {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(141, 184, 98);
+  transition: box-shadow 350ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    background-color 350ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.option__button:hover,
+.option__button:focus {
+  box-shadow: 5px 4px 5px 0px rgb(66, 176, 70);
+  background-color: rgb(119, 162, 76);
+}

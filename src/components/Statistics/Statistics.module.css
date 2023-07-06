@@ -1,0 +1,15 @@
+.statistics__list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 40px;
+}
+.statistic__item {
+  margin-bottom: 20px;
+}
+.statistic__text {
+  margin: 0;
+  font-weight: 500;
+}
+.statistic__span {
+  margin-left: 7px;
+}

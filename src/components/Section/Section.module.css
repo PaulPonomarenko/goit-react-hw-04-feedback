@@ -1,0 +1,8 @@
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.section__title {
+  text-align: center;
+}
